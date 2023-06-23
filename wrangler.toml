@@ -1,0 +1,13 @@
+name = "troubleshoot"
+main = "src/worker.ts"
+compatibility_date = "2023-06-23"
+
+kv_namespaces = [
+    # Name should always be the same, it's used in the code
+    { binding = "wrangler_troubleshooting", id = "79da6370722e4367af935dc274aa0c73", preview_id = "79da6370722e4367af935dc274aa0c73" },
+]
+
+[dev]
+ip = "localhost"
+port = 8089
+local_protocol = "http"
